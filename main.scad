@@ -485,6 +485,14 @@ module display()
         }
     }
 
+    translate([ 13 * cell_width + 13 * line_width, 4 * cell_width + 3 * line_width])
+    {
+        installable()
+        {
+            right_spawn();
+        }
+    }
+
     translate([ 0, 4 * cell_width + 3 * line_width ])
     {
         installable()
